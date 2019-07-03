@@ -1,22 +1,12 @@
-// Core variables and mixins
+// Import variables and mixins
 @import "variables.less";
 @import "mixins.less";
-
-//default breakpoints
-@xl-break: 1675px;
-@l-break: 1300px;
-@m-break: 985px;
-@s-break: 650px;
-
-//default sizings
-@col-names: sm, md, lg;
-@col-breaks: @s-break, @m-break, @l-break;
-
 
 .grid {
   padding-right: @outer-margin;
   padding-left: @outer-margin;
 }
+
 .row {
   box-sizing: border-box;
   display: flex;
@@ -29,6 +19,7 @@
 .row.reverse {
   .row-reverse();
 }
+
 .col.reverse {
    .col-reverse();
 }

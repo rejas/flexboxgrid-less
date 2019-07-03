@@ -1,26 +1,21 @@
-{  
-  "name": "flexboxgrid-less",
-  "version": "0.0.1",
+{
+  "name": "less-flexboxgrid",
+  "version": "0.1.0",
   "description": "Less code for the gridsystem of flexboxgrid.com",
-  "homepage": "https://github.com/bassjobsen/flexboxgrid-less",
-  "author": {
+  "homepage": "https://github.com/rejas/flexboxgrid-less",
+  "author": "rejas",
+  "contributors": [ {
     "name": "Bass Jobsen",
     "email": "bass@w3masters.nl"
-  },
-  "contributors": [],
+  }],
   "bugs": {
-    "url": "https://github.com/bassjobsen/flexboxgrid-less/issues"
+    "url": "https://github.com/rejas/flexboxgrid-less/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bassjobsen/flexboxgrid-less.git"
+    "url": "https://github.com/rejas/flexboxgrid-less.git"
   },
-  "licenses": [
-    {
-      "type": "Apache v2",
-      "url": "https://github.com/bassjobsen/flexboxgrid-less/LICENSE"
-    }
-  ],
+  "license": "Apache v2",
   "keywords": [
     "grid",
     "less",
